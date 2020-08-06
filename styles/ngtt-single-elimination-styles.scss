@@ -35,7 +35,7 @@
   align-items: center;
   height: $ngtt-match-wrapper-height + 2 * $ngtt-vertical-match-padding;
   width: $ngtt-match-wrapper-width + 2* $ngtt-round-gutters;
-  padding: $ngtt-vertical-match-padding $ngtt-round-gutters;
+  padding: $ngtt-vertical-match-padding 0;
   position: relative;
   box-sizing: border-box !important;
   &::after {
@@ -46,18 +46,6 @@
     width: $ngtt-round-gutters;
     height: 50%;
     border-right: $ngtt-bracket-line-width solid $ngtt-line-color-main;
-    content: '';
-    box-sizing: border-box !important;
-  }
-
-  &::before {
-    display: flex;
-    flex-grow: 1;
-    left: 0;
-    top: 50%;
-    position: absolute;
-    width: $ngtt-round-gutters;
-    border-top: $ngtt-bracket-line-width solid $ngtt-line-color-main;
     content: '';
     box-sizing: border-box !important;
   }
