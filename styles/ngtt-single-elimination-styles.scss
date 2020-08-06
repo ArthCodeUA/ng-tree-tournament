@@ -15,7 +15,6 @@
   box-sizing: border-box !important;
 }
 
-// winners bracket
 .ngtt-se__bracket-wrapper {
   display: flex;
   flex-direction: row;
@@ -39,7 +38,6 @@
   padding: $ngtt-vertical-match-padding $ngtt-round-gutters;
   position: relative;
   box-sizing: border-box !important;
-  // every bracket line
   &::after {
     display: flex;
     flex-grow: 1;
@@ -93,7 +91,6 @@
   }
 }
 
-//final match
 .ngtt-se__finale-match-wrapper {
   display: flex;
   flex-grow: 1;
