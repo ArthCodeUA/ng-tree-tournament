@@ -1,0 +1,1 @@
+{"version":3,"file":"ngtt-double-elimination-tree.module.d.ts","sources":["ngtt-double-elimination-tree.module.d.ts"],"names":[],"mappings":";;;AAAA;;;AACA","sourcesContent":["export declare class NgttDoubleEliminationTreeModule {\r\n}\r\n"]}

@@ -1,0 +1,11 @@
+import { OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
+import { NgttRound, NgttTournament } from '../declarations/interfaces';
+export declare class SingleEliminationTreeComponent implements OnInit, OnChanges {
+    matchTemplate: TemplateRef<any>;
+    tournament: NgttTournament;
+    winnersBracket: NgttRound[];
+    final: NgttRound;
+    constructor();
+    ngOnInit(): void;
+    ngOnChanges(changes: SimpleChanges): void;
+}

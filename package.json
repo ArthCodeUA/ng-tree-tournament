@@ -1,0 +1,84 @@
+{
+  "_from": "ng-tournament-tree",
+  "_id": "ng-tournament-tree@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-fak8jEQ9Kvsoh3AAN2+etzC5DzmN9FiRMny+37UOzJ6I22UafT/+IaQafET2e+QvO8L4SgVROgWzgwnW0VcFQA==",
+  "_location": "/ng-tournament-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ng-tournament-tree",
+    "name": "ng-tournament-tree",
+    "escapedName": "ng-tournament-tree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng-tournament-tree/-/ng-tournament-tree-2.0.2.tgz",
+  "_shasum": "8177d0adf40a84d12696ef279f8f0b5757cbdddb",
+  "_spec": "ng-tournament-tree",
+  "_where": "C:\\Work\\mesports-frontend",
+  "author": {
+    "name": "Oliver Happe"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/joermunG/tournament-tree/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "description": "Tournament-Tree render components for Angular. Includes single- and double-elimination trees. You can also customize how a match is displayed by providing your own component.",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ng-tournament-tree.js",
+  "es2015": "fesm2015/ng-tournament-tree.js",
+  "esm2015": "esm2015/ng-tournament-tree.js",
+  "esm5": "esm5/ng-tournament-tree.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ng-tournament-tree.js",
+  "fesm2015": "fesm2015/ng-tournament-tree.js",
+  "fesm5": "fesm5/ng-tournament-tree.js",
+  "homepage": "https://gitlab.com/joermunG/tournament-tree",
+  "keywords": [
+    "angular",
+    "ng",
+    "tournament",
+    "tournament-tree",
+    "tournament-bracket",
+    "bracket",
+    "flow-chart",
+    "chart",
+    "tree",
+    "scss",
+    "components",
+    "match"
+  ],
+  "license": "MIT",
+  "main": "bundles/ng-tournament-tree.umd.js",
+  "metadata": "ng-tournament-tree.metadata.json",
+  "module": "fesm5/ng-tournament-tree.js",
+  "name": "ng-tournament-tree",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/joermunG/tournament-tree.git"
+  },
+  "sideEffects": false,
+  "typings": "ng-tournament-tree.d.ts",
+  "version": "2.0.2",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.0.2",
+    "fesm2015": "10.0.2",
+    "typings": "10.0.2"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}
